@@ -1,3 +1,4 @@
 # Expense Tracker
 
-Application React utilisant **Firebase**
+Application de suivi de dépenses et rentrées financières.
+Application **React** utilisant **Firebase**
