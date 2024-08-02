@@ -4,7 +4,7 @@ export const useGetUserInfo = () => {
         profilePhoto,
         userID,
         isAuth
-    } = JSON.parse(localStorage.getItem("auth"));
+    } = JSON.parse(localStorage.getItem("auth")) || {};
 
     return { name, profilePhoto, userID, isAuth };
 }
